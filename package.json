@@ -1,6 +1,9 @@
 {
   "name": "jarvis",
   "version": "1.0.0",
+  "bin": {
+    "jarvis": "./chat.js"
+  },
   "description": "Terminal AI chatbot using OpenAI's API",
   "main": "index.js",
   "type": "module",
